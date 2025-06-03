@@ -24,6 +24,15 @@ nav img{
 
 
 }
+ nav .fa{
+    display: none;
+ }
+ nav .fa-solid{
+    display: none;
+ }
+
+
+
 .nav-links{
     flex:1;
     text-align:right; 
@@ -129,6 +138,9 @@ nav img{
         font-size:22px;
         cursor:pointer
     }
+     nav .fa-solid{
+    display: block;
+ }
 
     .nav-links ul {
         padding:30px;
