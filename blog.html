@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>University Website Design - Easy Tutorial</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html">
+        <img src="images/logo.png" alt="University Logo" />
+      </a>
+      <div class="nav-links" id="navLinks"  >
+        <i class="fa fa-times" onClick="hideMenu()" ></i>
+         <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onClick="showMenu()"  ></i>
+    </nav>
+
+   <h1>Our Certificate and Online Program for 2025</h1>
+  </section>
+
+    <!----Blog Page contect section----->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/certificate.jpg" alt="">
+          <h2>Blog Page Our Certificate for out Online Program 2025</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa ea dolores, repellat blanditiis omnis quasi, quam veritatis, dicta natus odio explicabo. Alias tempora omnis perspiciatis animi, necessitatibus sunt id reprehenderit!</p>
+          <br>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam nulla velit enim sequi qui dolorum, fuga debitis maxime dolore suscipit atque quia, quos repellat! Similique perspiciatis quisquam totam veniam perferendis.</p>
+          <br>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus, natus. Veritatis obcaecati saepe nulla fugit harum labore architecto laboriosam voluptatum aspernatur neque rem fuga, illum repellat tenetur deserunt! Id, numquam.</p>
+
+         <div class="comment-box">
+          <h3> Leave A Comment </h3>
+          <form class="comment-form">
+            <input type="text" placeholder="Enter The Name">
+            <input type="email" placeholder="Enter The Email">
+            <textarea name="" id="" rows="5" placeholder="Enter Your comments"></textarea>
+            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+          </form>
+         </div>
+
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Bussiness Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Bussiness Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Bussiness Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Bussiness Analytics</span>
+            <span>21</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  
+
+
+
+    <!----Footer----->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, atque iste<br>
+             voluptatem asperiores non quae nam, ea, cum officiis fugit tempore. Excepturi, natus reprehenderit eos voluptatem consequuntur atque quas quae!</p>
+        <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+           <p> Made with <i class="fa fa-heart-o" ></i>Easy Tutorials</p>
+
+        </div>     
+
+
+    </section>
+
+
+
+
+  <!----Javascript tp toggle menu ----->
+
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+
+    }
+        function hideMenu(){
+        navLinks.style.right="-200px";
+        
+    }
+</script>
+
+</body>
+</html>

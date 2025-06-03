@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>University Website Design - Easy Tutorial</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+</head>
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html">
+        <img src="images/logo.png" alt="University Logo" />
+      </a>
+      <div class="nav-links" id="navLinks"  >
+        <i class="fa fa-times" onClick="hideMenu()" ></i>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="course.html">Courses</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onClick="showMenu()"  ></i>
+    </nav>
+
+   <h1>About Us</h1>
+  </section>
+
+<!----About Us Content-->
+<section class="aboutus">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are the world largest university</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium non praesentium odit dicta illum placeat. Fuga corporis laborum molestias eius magnam, quod impedit provident sapiente nobis ullam assumenda perferendis incidunt!</p>
+            <a href="" class="hero-btn red-btn">Explore Now</a>
+
+        </div>
+          <div class="about-col">
+            <img src="images/about.jpg" alt="">
+            
+        </div>
+    </div>
+
+</section>
+
+
+    <!----Footer----->
+    <section class="footer">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium, atque iste<br>
+             voluptatem asperiores non quae nam, ea, cum officiis fugit tempore. Excepturi, natus reprehenderit eos voluptatem consequuntur atque quas quae!</p>
+        <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+           <p> Made with <i class="fa fa-heart-o" ></i>Easy Tutorials</p>
+
+        </div>     
+
+
+    </section>
+
+
+
+
+  <!----Javascript tp toggle menu ----->
+
+<script>
+    var navLinks=document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+
+    }
+        function hideMenu(){
+        navLinks.style.right="-200px";
+        
+    }
+</script>
+
+</body>
+</html>
